@@ -1,0 +1,708 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Identity-Level Leadership Coaching | Julie Landau</title>
+<meta name="description" content="Identity-level coaching for Directors, VPs, GMs, founders, and C-suite leaders. Former VP at Alibaba. Coaching globally in English and French.">
+<meta property="og:title" content="Julie Landau — Identity-Level Executive Coach">
+<meta property="og:description" content="Your presence is the strategy.">
+<meta property="og:type" content="website">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400&family=Hanken+Grotesk:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --ink:#1b1a18;--ink-2:#322e2a;--soft:#5b554e;
+    --paper:#ffffff;--cream:#f6f2ec;--cream-2:#efe9e0;
+    --gold:#b5895c;--gold-deep:#946c42;
+    --line:rgba(27,26,24,.12);--line-light:rgba(255,255,255,.16);
+    --shadow:0 24px 60px -28px rgba(27,26,24,.28);--r:14px;
+  }
+  *{margin:0;padding:0;box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{font-family:"Hanken Grotesk",sans-serif;color:var(--ink);background:var(--paper);font-size:17px;line-height:1.7;font-weight:400;-webkit-font-smoothing:antialiased;overflow-x:hidden;}
+  h1,h2,h3,h4{font-family:"Fraunces",serif;font-weight:500;line-height:1.08;letter-spacing:-.01em}
+  .wrap{max-width:1180px;margin:0 auto;padding:0 28px}
+  .eyebrow{font-family:"Hanken Grotesk",sans-serif;font-weight:600;text-transform:uppercase;letter-spacing:.22em;font-size:12px;color:var(--gold-deep);display:inline-block;}
+  a{color:inherit;text-decoration:none}
+  img{max-width:100%;display:block}
+
+  /* buttons */
+  .btn{display:inline-flex;align-items:center;gap:.6em;font-family:"Hanken Grotesk",sans-serif;font-weight:600;font-size:15px;padding:15px 26px;border-radius:999px;cursor:pointer;border:1px solid transparent;transition:transform .25s ease,background .25s ease,color .25s ease,box-shadow .25s ease;}
+  .btn .dot{width:7px;height:7px;border-radius:50%;background:currentColor;opacity:.85}
+  .btn-gold{background:var(--gold);color:#fff}
+  .btn-gold:hover{background:var(--gold-deep);transform:translateY(-2px);box-shadow:0 14px 30px -14px rgba(148,108,66,.7)}
+  .btn-dark{background:var(--ink);color:#fff}
+  .btn-dark:hover{transform:translateY(-2px);background:#000;box-shadow:0 14px 30px -16px rgba(0,0,0,.5)}
+  .btn-ghost{background:transparent;border-color:rgba(255,255,255,.4);color:#fff}
+  .btn-ghost:hover{background:rgba(255,255,255,.08);transform:translateY(-2px)}
+
+  /* placeholder */
+  .ph{position:relative;border-radius:var(--r);overflow:hidden;background:radial-gradient(120% 120% at 30% 10%, rgba(181,137,92,.22), transparent 55%),linear-gradient(150deg,#ded4c6,#cbbda9 55%,#b9a890);display:flex;align-items:center;justify-content:center;min-height:340px;}
+  .ph::after{content:"";position:absolute;inset:0;opacity:.5;mix-blend-mode:overlay;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='80' height='80'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='2'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='.5'/%3E%3C/svg%3E");}
+  .ph .ph-label{position:relative;z-index:1;text-align:center;color:rgba(27,26,24,.5);font-size:12.5px;font-weight:600;letter-spacing:.12em;text-transform:uppercase}
+  .ph svg{width:46px;height:46px;margin:0 auto 10px;display:block;stroke:rgba(27,26,24,.42)}
+
+  /* nav */
+  header.nav{position:sticky;top:0;z-index:50;background:rgba(255,255,255,.86);backdrop-filter:blur(12px);border-bottom:1px solid transparent;transition:border-color .3s,box-shadow .3s;}
+  header.nav.scrolled{border-color:var(--line);box-shadow:0 8px 30px -22px rgba(27,26,24,.4)}
+  .nav-inner{display:flex;align-items:center;justify-content:space-between;height:74px}
+  .logo{font-family:"Fraunces",serif;font-weight:600;font-size:23px;letter-spacing:-.02em}
+  .logo .pt{color:var(--gold)}
+  .nav-links{display:flex;gap:30px;align-items:center}
+  .nav-links a{font-size:14.5px;font-weight:500;color:var(--ink-2);transition:color .2s;position:relative}
+  .nav-links a::after{content:"";position:absolute;left:0;bottom:-5px;width:0;height:1.5px;background:var(--gold);transition:width .25s}
+  .nav-links a:hover{color:var(--ink)}
+  .nav-links a:hover::after{width:100%}
+  .nav-cta{display:flex;align-items:center;gap:14px}
+  .burger{display:none;flex-direction:column;gap:5px;cursor:pointer;padding:8px}
+  .burger span{width:24px;height:2px;background:var(--ink);transition:.3s}
+
+  /* hero */
+  .hero{background:var(--ink);color:#fff;position:relative;overflow:hidden;min-height:92vh;display:flex;align-items:center;}
+  .hero::before{content:"";position:absolute;top:-30%;right:-10%;width:60%;height:140%;background:radial-gradient(circle, rgba(181,137,92,.18), transparent 60%);pointer-events:none;}
+  .hero-inner{display:grid;grid-template-columns:1.15fr .85fr;gap:54px;align-items:center;padding:80px 0;}
+  .hero h1{font-size:clamp(42px,5.5vw,68px);font-weight:500;letter-spacing:-.02em;line-height:1.04}
+  .hero h1 em{font-style:italic;color:var(--gold)}
+  .hero .sub{font-family:"Fraunces",serif;font-style:italic;font-size:21px;color:#e9dccb;margin-top:20px;line-height:1.45;max-width:26em}
+  .hero .lede{color:#9a9089;margin-top:14px;font-size:15px;letter-spacing:.04em;text-transform:uppercase;font-weight:600}
+  .hero-cta{display:flex;gap:14px;margin-top:34px;flex-wrap:wrap}
+  .hero-figure{position:relative}
+  .hero-figure .ph{min-height:520px;border-radius:18px;background:radial-gradient(120% 120% at 30% 10%, rgba(181,137,92,.3), transparent 55%),linear-gradient(150deg,#473f36,#2c2620);}
+  .hero-figure .ph .ph-label{color:rgba(255,255,255,.55)}
+  .hero-figure .ph svg{stroke:rgba(255,255,255,.4)}
+  .vlabel{position:absolute;left:-58px;top:50%;transform:rotate(-90deg);transform-origin:center;font-size:12px;letter-spacing:.22em;text-transform:uppercase;color:var(--gold);font-weight:600;white-space:nowrap;}
+
+  /* trust */
+  .trust{background:var(--ink);border-top:1px solid rgba(255,255,255,.08);padding:24px 0}
+  .trust-inner{display:flex;align-items:center;justify-content:center;gap:14px 40px;flex-wrap:wrap}
+  .trust .lab{font-size:12px;letter-spacing:.18em;text-transform:uppercase;font-weight:600;color:#8a8278}
+  .trust .name{font-family:"Fraunces",serif;font-size:19px;color:#ece6dd;font-weight:500}
+
+  /* sections */
+  section{padding:96px 0}
+  .sec-cream{background:var(--cream)}
+  .center{text-align:center}
+  .sec-head{max-width:680px;margin:0 auto 56px}
+  .center .sec-head{margin-left:auto;margin-right:auto}
+  h2.title{font-size:clamp(30px,4vw,46px);margin-top:14px;font-weight:500}
+  .lead-2col{display:grid;grid-template-columns:1fr 1fr;gap:60px;align-items:center}
+
+  /* recognition */
+  .reveal-list{list-style:none;margin-top:26px;display:flex;flex-direction:column;gap:16px}
+  .reveal-list li{display:flex;gap:14px;align-items:flex-start;font-size:16.5px;color:var(--ink-2)}
+  .reveal-list li .ic{flex:0 0 auto;width:26px;height:26px;border-radius:50%;background:var(--cream-2);display:grid;place-items:center;margin-top:3px}
+  .reveal-list li .ic svg{width:14px;height:14px;stroke:var(--gold-deep)}
+  .closer{margin-top:26px;font-family:"Fraunces",serif;font-style:italic;font-size:20px;color:var(--ink);line-height:1.4}
+
+  /* not-yet */
+  .not-yet{margin-top:36px;padding:28px 32px;border-left:3px solid var(--gold);background:var(--cream);border-radius:0 var(--r) var(--r) 0;}
+  .not-yet p{font-family:"Fraunces",serif;font-style:italic;font-size:17px;color:var(--soft);line-height:1.65;margin-bottom:5px}
+  .not-yet p:last-child{margin-bottom:0;color:var(--gold-deep);font-style:normal;font-size:14px;font-family:"Hanken Grotesk",sans-serif;font-weight:600;letter-spacing:.04em;margin-top:10px}
+
+  /* performing section */
+  .perform-section{background:var(--ink);color:#fff;padding:96px 0}
+  .perform-inner{display:grid;grid-template-columns:1fr 1fr;gap:80px;align-items:center}
+  .perform-inner .eyebrow{color:rgba(181,137,92,.75);margin-bottom:14px}
+  .perform-inner h2{font-size:clamp(32px,4vw,48px);color:#fff;line-height:1.07}
+  .perform-inner h2 em{font-style:italic;color:var(--gold)}
+  .perform-body{margin-top:28px;display:flex;flex-direction:column;gap:16px}
+  .perform-body p{color:rgba(248,243,235,.72);font-size:16px;line-height:1.75}
+  .perform-body p strong{color:#fff;font-weight:600}
+  .perform-quote{padding:32px 36px;background:rgba(255,255,255,.06);border:1px solid rgba(181,137,92,.28);border-radius:var(--r);}
+  .perform-quote blockquote{font-family:"Fraunces",serif;font-style:italic;font-size:22px;color:#e8d9c0;line-height:1.5;margin-bottom:16px}
+  .perform-quote .attr{font-size:13px;letter-spacing:.06em;text-transform:uppercase;color:rgba(181,137,92,.65);font-weight:600;line-height:1.6}
+
+  /* features */
+  .feat-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:30px;margin-top:10px}
+  .feat{background:var(--paper);border:1px solid var(--line);border-radius:var(--r);padding:34px 30px;transition:transform .3s,box-shadow .3s,border-color .3s}
+  .sec-cream .feat{background:#fff}
+  .feat:hover{transform:translateY(-6px);box-shadow:var(--shadow);border-color:transparent}
+  .feat .ficon{width:54px;height:54px;border-radius:13px;background:linear-gradient(150deg,#f0e7da,#e4d5c0);display:grid;place-items:center;margin-bottom:20px}
+  .feat .ficon svg{width:26px;height:26px;stroke:var(--gold-deep);fill:none;stroke-width:1.6}
+  .feat h3{font-size:21px;margin-bottom:10px}
+  .feat p{font-size:15.5px;color:var(--soft)}
+
+  /* biography */
+  .bio-cinema{position:relative;color:#fff;padding:130px 0 110px;overflow:hidden;background:#15110d;isolation:isolate}
+  .bio-bg{position:absolute;inset:-4%;z-index:0;background:radial-gradient(45% 40% at 25% 30%, rgba(181,137,92,.35), transparent 70%),radial-gradient(55% 45% at 80% 70%, rgba(74,52,33,.55), transparent 65%),linear-gradient(135deg,#2d2218 0%,#1a130c 55%,#0a0805 100%);animation:bioken 32s ease-in-out infinite alternate;}
+  .bio-bg::after{content:"";position:absolute;inset:0;opacity:.18;mix-blend-mode:overlay;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='2'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");}
+  @keyframes bioken{from{transform:scale(1) translate(0,0)}to{transform:scale(1.08) translate(-1%,-1.5%)}}
+  .bio-overlay{position:absolute;inset:0;z-index:1;background:linear-gradient(180deg,rgba(0,0,0,.18) 0%,rgba(0,0,0,.55) 100%);pointer-events:none}
+  .bio-inner{position:relative;z-index:2;max-width:1240px}
+  .bio-eyebrow{font-family:"Hanken Grotesk",sans-serif;font-weight:400;letter-spacing:.55em;text-transform:uppercase;font-size:13px;color:rgba(232,217,196,.88);display:block;margin-bottom:24px;padding-left:3px}
+  .bio-name{font-family:"Fraunces",serif;font-weight:500;font-size:clamp(46px,7vw,92px);line-height:.98;color:#fff;letter-spacing:-.025em;margin-bottom:56px}
+  .bio-cols{display:grid;grid-template-columns:1fr 1fr;gap:64px;max-width:1020px}
+  .bio-col p{color:rgba(248,243,235,.82);font-size:16.5px;line-height:1.78;margin-bottom:18px;font-weight:400}
+  .bio-col p:last-child{margin-bottom:0}
+  .bio-col p em{font-style:italic;color:#e8d6ba;font-weight:500}
+  .bio-cred{margin-top:52px;font-size:12.5px;letter-spacing:.08em;color:#cfa67c;border-top:1px solid rgba(207,166,124,.28);padding-top:24px;max-width:920px;text-transform:uppercase;font-weight:500}
+
+  /* who for */
+  .twin{display:grid;grid-template-columns:1fr 1fr;gap:40px}
+  .twin .col{background:#fff;border:1px solid var(--line);border-radius:var(--r);padding:38px 34px}
+  .twin .col.no{background:transparent;border-style:dashed}
+  .twin h3{font-size:24px;margin-bottom:6px}
+  .twin .tag{font-size:13px;color:var(--gold-deep);font-weight:600;letter-spacing:.04em}
+  .twin ul{list-style:none;margin-top:22px;display:flex;flex-direction:column;gap:14px}
+  .twin li{display:flex;gap:12px;align-items:flex-start;font-size:15.5px;color:var(--ink-2)}
+  .twin li svg{flex:0 0 auto;width:19px;height:19px;margin-top:3px}
+  .twin .col svg.yes{stroke:var(--gold)}
+  .twin .col.no svg{stroke:#b9b2a8}
+
+  /* engagements */
+  .eng-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:26px;margin-top:10px}
+  .eng-intro{max-width:560px;margin:0 auto 44px;color:var(--soft);font-size:16px;line-height:1.7;text-align:center}
+  .eng{position:relative;background:#fff;border:1px solid var(--line);border-radius:var(--r);padding:40px 32px 34px;overflow:hidden;transition:transform .3s,box-shadow .3s}
+  .eng:hover{transform:translateY(-6px);box-shadow:var(--shadow)}
+  .eng .num{font-family:"Fraunces",serif;font-size:58px;color:var(--cream-2);font-weight:500;line-height:1;position:absolute;top:22px;right:26px}
+  .eng h3{font-size:25px;margin-bottom:4px;position:relative}
+  .eng .dur{font-size:13.5px;color:var(--gold-deep);font-weight:600;letter-spacing:.05em;margin-bottom:16px}
+  .eng p{font-size:15.5px;color:var(--soft);margin-bottom:22px}
+  .eng .ar{display:inline-flex;align-items:center;gap:8px;font-weight:600;font-size:14.5px;color:var(--ink)}
+  .eng .ar svg{width:16px;height:16px;stroke:var(--gold);transition:transform .25s}
+  .eng:hover .ar svg{transform:translateX(5px)}
+
+  /* cta band */
+  .cta-band{background:var(--gold);color:#fff;text-align:center;position:relative;overflow:hidden;padding:80px 0}
+  .cta-band::before{content:"";position:absolute;inset:0;background:radial-gradient(circle at 50% 0%,rgba(255,255,255,.18),transparent 55%)}
+  .cta-band h2{font-size:clamp(28px,3.5vw,42px);position:relative;font-weight:500;color:#fff}
+  .cta-band p{position:relative;margin:12px auto 28px;max-width:34em;color:rgba(255,255,255,.88);font-family:"Fraunces",serif;font-style:italic;font-size:18px}
+  .cta-band .btn-dark{position:relative}
+
+  /* testimonials */
+  .tg{display:grid;grid-template-columns:1fr 1fr;gap:26px;margin-top:10px}
+  .tcard{background:#fff;border:1px solid var(--line);border-radius:var(--r);padding:34px 32px;transition:transform .3s,box-shadow .3s}
+  .tcard:hover{transform:translateY(-5px);box-shadow:var(--shadow)}
+  .tcard .stars{color:var(--gold);letter-spacing:3px;font-size:15px;margin-bottom:16px}
+  .tcard .quote{font-family:"Fraunces",serif;font-size:20px;line-height:1.45;color:var(--ink);margin-bottom:10px}
+  .tcard .after-ctx{font-size:14px;color:var(--gold-deep);margin-bottom:14px;font-style:italic}
+  .tcard .before{font-size:14.5px;color:var(--soft);font-style:italic;margin-bottom:20px}
+  .tcard .who{display:flex;align-items:center;gap:13px;padding-top:18px;border-top:1px solid var(--line)}
+  .tcard .av{width:42px;height:42px;border-radius:50%;background:linear-gradient(150deg,#ded4c6,#b9a890);flex:0 0 auto}
+  .tcard .who .nm{font-weight:600;font-size:14.5px}
+  .tcard .who .rl{font-size:13px;color:var(--soft)}
+
+  /* language shift */
+  .lang-shift{padding:96px 0}
+  .lang-grid{display:grid;grid-template-columns:1fr 1fr;max-width:860px;margin:44px auto 0;border:1px solid var(--line);border-radius:var(--r);overflow:hidden}
+  .lang-head{padding:16px 28px;font-size:12px;font-weight:600;letter-spacing:.18em;text-transform:uppercase;border-bottom:1px solid var(--line)}
+  .lang-head.bef{background:var(--cream-2);color:var(--soft)}
+  .lang-head.aft{background:var(--gold);color:#fff;border-left:1px solid transparent}
+  .lang-b,.lang-a{padding:17px 28px;font-size:15.5px;border-bottom:1px solid var(--line)}
+  .lang-b{background:#fff;color:var(--soft);font-style:italic}
+  .lang-a{background:var(--paper);color:var(--ink);font-weight:500;border-left:1px solid var(--line)}
+  .lang-b:last-of-type,.lang-a:last-of-type{border-bottom:none}
+
+  /* FAQ */
+  .faq{max-width:820px;margin:0 auto}
+  .qa{border-bottom:1px solid var(--line)}
+  .qa button{width:100%;background:none;border:none;cursor:pointer;text-align:left;padding:24px 0;display:flex;justify-content:space-between;align-items:center;gap:20px;font-family:"Fraunces",serif;font-size:20px;color:var(--ink);font-weight:500}
+  .qa .pm{flex:0 0 auto;width:24px;height:24px;position:relative}
+  .qa .pm::before,.qa .pm::after{content:"";position:absolute;background:var(--gold);transition:transform .3s}
+  .qa .pm::before{top:11px;left:2px;width:20px;height:2px}
+  .qa .pm::after{top:2px;left:11px;width:2px;height:20px}
+  .qa.open .pm::after{transform:scaleY(0)}
+  .qa .ans{max-height:0;overflow:hidden;transition:max-height .35s ease}
+  .qa .ans p{padding:0 0 24px;color:var(--soft);font-size:16px;max-width:62em}
+
+  /* contact */
+  .contact-grid{display:grid;grid-template-columns:.85fr 1.15fr;gap:0;background:var(--cream);border-radius:18px;overflow:hidden}
+  .contact-grid .ph{min-height:100%;border-radius:0}
+  .cform{padding:50px 46px}
+  .cform h2{font-size:clamp(28px,3.5vw,40px);margin-bottom:8px}
+  .cform .sub{color:var(--soft);margin-bottom:6px}
+  .cform .sub-note{font-size:14px;color:var(--gold-deep);font-style:italic;margin-bottom:28px}
+  .field{margin-bottom:22px}
+  .field label{display:block;font-size:13px;font-weight:600;letter-spacing:.04em;color:var(--soft);margin-bottom:8px;text-transform:uppercase}
+  .field input,.field textarea{width:100%;border:none;border-bottom:1.5px solid var(--line);background:transparent;padding:10px 2px;font-family:inherit;font-size:16px;color:var(--ink);transition:border-color .25s}
+  .field input:focus,.field textarea:focus{outline:none;border-color:var(--gold)}
+  .field textarea{resize:vertical;min-height:90px}
+  .form-note{margin-top:16px;font-size:13px;color:var(--soft);font-style:italic}
+
+  /* footer */
+  footer{background:var(--ink);color:#cfc8bf;padding:70px 0 34px}
+  .foot-grid{display:grid;grid-template-columns:1.3fr 1fr 1fr;gap:48px;padding-bottom:48px;border-bottom:1px solid rgba(255,255,255,.1)}
+  footer .logo{color:#fff;font-size:24px;margin-bottom:18px}
+  footer p{font-size:15px;color:#b0a89d;max-width:30em}
+  footer h4{font-family:"Fraunces",serif;color:#fff;font-size:20px;font-weight:500;margin-bottom:20px}
+  .foot-links{list-style:none;display:flex;flex-direction:column;gap:13px}
+  .foot-links a{font-size:15px;color:#c4bcb1;transition:color .2s}
+  .foot-links a:hover{color:var(--gold)}
+  .foot-meta{margin-top:22px}
+  .foot-meta .ml{font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:#857d72;font-weight:600;margin-bottom:5px}
+  .foot-meta .mv{color:#e6e0d7;font-weight:600;font-size:15px}
+  .news{display:flex;border:1px solid rgba(255,255,255,.18);border-radius:10px;overflow:hidden;margin-bottom:14px}
+  .news input{flex:1;background:transparent;border:none;padding:14px;color:#fff;font-family:inherit;font-size:14.5px}
+  .news input:focus{outline:none}
+  .news button{background:var(--gold);color:#fff;border:none;padding:0 22px;font-family:inherit;font-weight:600;font-size:14px;cursor:pointer;display:flex;align-items:center;gap:7px;transition:background .25s}
+  .news button:hover{background:var(--gold-deep)}
+  .social{display:flex;gap:10px;margin-top:18px}
+  .social a{width:38px;height:38px;border-radius:9px;background:rgba(255,255,255,.08);display:grid;place-items:center;transition:background .25s}
+  .social a:hover{background:var(--gold)}
+  .social svg{width:17px;height:17px;fill:#e6e0d7}
+  .copy{display:flex;justify-content:space-between;align-items:center;padding-top:26px;font-size:13.5px;color:#8a8278;flex-wrap:wrap;gap:12px}
+  .copy a{color:#a89f94}
+
+  /* reveal */
+  .r-up{opacity:0;transform:translateY(26px);transition:opacity .7s cubic-bezier(.2,.7,.2,1),transform .7s cubic-bezier(.2,.7,.2,1)}
+  .r-up.in{opacity:1;transform:none}
+
+  @media(max-width:920px){
+    .hero-inner,.lead-2col,.contact-grid,.perform-inner{grid-template-columns:1fr;gap:40px}
+    .hero-figure{order:-1}.vlabel{display:none}
+    .feat-grid,.eng-grid,.twin,.tg,.foot-grid{grid-template-columns:1fr 1fr}
+    .twin,.tg,.foot-grid{grid-template-columns:1fr}
+    .contact-grid .ph{min-height:240px}
+    .lang-grid{grid-template-columns:1fr}
+    .lang-head.aft{border-left:none;border-top:1px solid var(--line)}
+    .lang-a{border-left:none}
+  }
+  @media(max-width:780px){
+    .bio-cinema{padding:80px 0 70px}
+    .bio-cols{grid-template-columns:1fr;gap:18px;max-width:none}
+    .bio-name{margin-bottom:36px}
+    .bio-eyebrow{letter-spacing:.4em}
+    .bio-cred{margin-top:40px}
+  }
+  @media(max-width:680px){
+    .nav-links{display:none}.burger{display:flex}
+    .nav-links.show{display:flex;position:absolute;top:74px;left:0;right:0;background:#fff;flex-direction:column;padding:24px 28px;gap:18px;border-bottom:1px solid var(--line);box-shadow:var(--shadow)}
+    section{padding:66px 0}
+    .feat-grid,.eng-grid{grid-template-columns:1fr}
+    .cform{padding:38px 26px}
+    .copy{flex-direction:column;text-align:center}
+    body{font-size:16px}
+    .hero{min-height:auto}
+  }
+</style>
+</head>
+<body>
+
+<!-- NAV -->
+<header class="nav" id="nav">
+  <div class="wrap nav-inner">
+    <a href="#top" class="logo">Julie Landau<span class="pt">.</span></a>
+    <nav class="nav-links" id="navlinks">
+      <a href="#recognition">The Reality</a>
+      <a href="#work">The Work</a>
+      <a href="#about">About</a>
+      <a href="#engagements">Work With Me</a>
+      <a href="#stories">Stories</a>
+    </nav>
+    <div class="nav-cta">
+      <a href="#connect" class="btn btn-dark" style="padding:11px 20px;font-size:14px">Start the conversation <span class="dot"></span></a>
+      <div class="burger" id="burger"><span></span><span></span><span></span></div>
+    </div>
+  </div>
+</header>
+
+<!-- HERO -->
+<section class="hero" id="top" style="padding:0">
+  <div class="wrap hero-inner">
+    <div class="hero-copy">
+      <p class="lede r-up">Identity-level coaching · Global · EN / FR</p>
+      <h1 class="r-up">You're not exhausted<br>because you're doing<br>too much. You're<br>holding up <em>someone<br>you're not.</em></h1>
+      <p class="sub r-up">There is a version of you that doesn't have to prove anything.<br>This work finds her — and refuses to let her hide again.</p>
+      <div class="hero-cta r-up">
+        <a href="#connect" class="btn btn-gold">Start the conversation <span class="dot"></span></a>
+        <a href="#work" class="btn btn-ghost">See how I work</a>
+      </div>
+    </div>
+    <div class="hero-figure r-up">
+      <span class="vlabel">17 years leading at the top</span>
+      <div class="ph">
+        <div class="ph-label">
+          <svg viewBox="0 0 24 24" fill="none" stroke-width="1.4"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4 4-6 8-6s8 2 8 6"/></svg>
+          Your portrait here
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- TRUST -->
+<div class="trust">
+  <div class="wrap trust-inner">
+    <span class="lab">Trusted by leaders at</span>
+    <span class="name">LinkedIn</span>
+    <span class="name">Alibaba</span>
+    <span class="name">Google</span>
+    <span class="name">Meta</span>
+    <span class="name">Capgemini</span>
+    <span class="name">high-growth SaaS</span>
+  </div>
+</div>
+
+<!-- THE REALITY -->
+<section id="recognition">
+  <div class="wrap lead-2col">
+    <div class="r-up">
+      <div class="ph" style="min-height:440px">
+        <div class="ph-label">
+          <svg viewBox="0 0 24 24" fill="none" stroke-width="1.4"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4 4-6 8-6s8 2 8 6"/></svg>
+          Candid working photo
+        </div>
+      </div>
+    </div>
+    <div class="r-up">
+      <span class="eyebrow">The reality you're in</span>
+      <h2 class="title">You might know<br>this feeling.</h2>
+      <ul class="reveal-list" style="margin-top:22px">
+        <li><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M5 12l5 5L20 6"/></svg></span> You can't remember the last time you felt like <em>yourself</em> in a meeting — not performing, not managing, just present.</li>
+        <li><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M5 12l5 5L20 6"/></svg></span> You're making the biggest calls of your career and you've never felt less sure of the person making them.</li>
+        <li><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M5 12l5 5L20 6"/></svg></span> You used to move from fire. Now you mostly move from obligation.</li>
+      </ul>
+      <p class="closer">None of it means you're failing.<br>It means you've outgrown the identity that got you here.</p>
+      <div class="not-yet r-up">
+        <p>Maybe you haven't named it yet.</p>
+        <p>You just know the version of you that got here has started to feel like a costume.</p>
+        <p>You're successful enough to know that more success won't fix it.</p>
+        <p>That's precisely where this begins.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PERFORMING → EMBODYING -->
+<section class="perform-section" id="perform">
+  <div class="wrap">
+    <div class="perform-inner">
+      <div class="r-up">
+        <span class="eyebrow" style="color:rgba(181,137,92,.75)">The real shift</span>
+        <h2 style="margin-top:14px">From <em>performing</em> it<br>to living it.</h2>
+        <div class="perform-body">
+          <p>Most leaders I work with aren't struggling with capability.</p>
+          <p>They are struggling with the gap between what they <strong>project</strong> and what they <strong>feel</strong>.</p>
+          <p><strong>Performing</strong> wellbeing — and exhausted.<br>
+          <strong>Performing</strong> confidence — and privately questioning everything.<br>
+          <strong>Performing</strong> leadership — and feeling completely alone at the top.</p>
+          <p>Performance is expensive. It costs your energy, your presence, and eventually your body.</p>
+          <p>The shift is not a better performance.<br>It is the moment performing becomes unnecessary.</p>
+        </div>
+      </div>
+      <div class="perform-quote r-up">
+        <blockquote>"Je suis fière d'être moi."</blockquote>
+        <div class="attr">A client — two weeks after she couldn't say the word <em>proud</em> without deflecting.<br><br>She wasn't performing pride.<br>She was feeling it — for the first time, as an adult, about herself.<br><br>That is what this work is.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- WHAT CHANGES -->
+<section class="sec-cream center" id="work">
+  <div class="wrap">
+    <div class="sec-head">
+      <span class="eyebrow">What changes</span>
+      <h2 class="title">The work changes who you're being —<br>so everything you do follows.</h2>
+    </div>
+    <div class="feat-grid" style="text-align:left">
+      <div class="feat r-up">
+        <div class="ficon"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M15 9l-3.5 1.5L10 14l3.5-1.5L15 9z"/></svg></div>
+        <h3>Lead through the unknown</h3>
+        <p>Conviction in the unprecedented — a new role, a restructuring, a scale with no playbook.</p>
+      </div>
+      <div class="feat r-up">
+        <div class="ficon"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="3.2"/><circle cx="12" cy="12" r="8.4"/></svg></div>
+        <h3>Presence that precedes you</h3>
+        <p>You stop performing leadership. You become it. People feel the difference before you say a word.</p>
+      </div>
+      <div class="feat r-up">
+        <div class="ficon"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="1.6" fill="currentColor" stroke="none"/><path d="M12 3v3M12 18v3M3 12h3M18 12h3"/></svg></div>
+        <h3>Decisions from your own ground</h3>
+        <p>Not from pressure, not from fear. The right call becomes obvious instead of effortful.</p>
+      </div>
+      <div class="feat r-up">
+        <div class="ficon"><svg viewBox="0 0 24 24"><path d="M3 14c3 0 3-4 6-4s3 4 6 4 3-4 6-4"/><path d="M3 8c3 0 3-4 6-4s3 4 6 4"/></svg></div>
+        <h3>Emotion as power</h3>
+        <p>What you were taught to manage becomes the sharpest thing in the room.</p>
+      </div>
+      <div class="feat r-up">
+        <div class="ficon"><svg viewBox="0 0 24 24"><path d="M12 3C8 7 7 10 7 13a5 5 0 0010 0c0-3-1-6-5-10z"/></svg></div>
+        <h3>Energy that regenerates</h3>
+        <p>You stop leaking energy into a performance that was never yours.</p>
+      </div>
+      <div class="feat r-up">
+        <div class="ficon"><svg viewBox="0 0 24 24"><path d="M12 3l3 6 6 .9-4.5 4.3 1.1 6.3L12 17.8 6.4 20.5l1.1-6.3L3 9.9 9 9z"/></svg></div>
+        <h3>Power without proving</h3>
+        <p>Authority that no longer needs validation. You lead as yourself — and discover it was always enough.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- BIOGRAPHY -->
+<section id="about" class="bio-cinema">
+  <div class="bio-bg" role="presentation"></div>
+  <div class="bio-overlay" aria-hidden="true"></div>
+  <div class="wrap bio-inner">
+    <span class="bio-eyebrow r-up">Biography</span>
+    <h2 class="bio-name r-up">Julie Landau</h2>
+    <div class="bio-cols">
+      <div class="bio-col r-up">
+        <p>My father died when I was six. I started riding horses that same year. You cannot dominate a horse — you listen, attune, and lead from presence. Every leadership lesson I carry today was learned in that arena first.</p>
+        <p>I moved to Shanghai with one suitcase and no job waiting. Seventeen years leading teams across Asia followed — building P&Ls, scaling operations, VP at Alibaba. The weight you're carrying is not theory to me. <em>I have carried it.</em></p>
+      </div>
+      <div class="bio-col r-up">
+        <p>What the résumé doesn't say: I rebuilt myself from the ground up. Recovered alcoholic. Recovered from bulimia. I have restructured not just companies but the deepest parts of who I am.</p>
+        <p>Two coaching sessions in a Buddhist temple in Thailand changed my direction entirely. I flew to London on one week's notice — only a gut yes so clear it wasn't optional.</p>
+        <p><em>That is how I make decisions now. And it is what I will teach you.</em></p>
+      </div>
+    </div>
+    <div class="bio-cred r-up">Ex-VP, Alibaba Group &nbsp;·&nbsp; ICF PCC &amp; ACC &nbsp;·&nbsp; 17 years international leadership &nbsp;·&nbsp; EN / FR</div>
+  </div>
+</section>
+
+<!-- WHO FOR / NOT FOR -->
+<section class="sec-cream">
+  <div class="wrap">
+    <div class="sec-head center" style="margin-bottom:44px">
+      <span class="eyebrow">Is this for you?</span>
+      <h2 class="title">The work is for leaders who are<br>done carrying what was never theirs.</h2>
+    </div>
+    <div class="twin">
+      <div class="col r-up">
+        <span class="tag">This is for you</span>
+        <h3>Who this is for</h3>
+        <ul>
+          <li><svg class="yes" viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M5 12l5 5L20 6"/></svg> A Director, VP, GM, founder, or C-suite leader — in any industry where the stakes are real and the pressure is relentless</li>
+          <li><svg class="yes" viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M5 12l5 5L20 6"/></svg> Successful on the outside and privately exhausted by the gap between what you've built and how it feels to be you inside it</li>
+          <li><svg class="yes" viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M5 12l5 5L20 6"/></svg> Willing to look at yourself as the primary variable</li>
+          <li><svg class="yes" viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M5 12l5 5L20 6"/></svg> Ready for a real shift — not more frameworks, not a coach who tells you what you want to hear</li>
+          <li><svg class="yes" viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M5 12l5 5L20 6"/></svg> Sensing another level is available — not a better title, but a freer, truer version of how you lead</li>
+        </ul>
+      </div>
+      <div class="col no r-up">
+        <span class="tag" style="color:#9a948a">Not for everyone</span>
+        <h3>Not for</h3>
+        <ul>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M6 6l12 12M18 6L6 18"/></svg> Those looking for validation rather than an honest mirror</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M6 6l12 12M18 6L6 18"/></svg> Leaders who want a coach to fix their team while they stay exactly as they are</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M6 6l12 12M18 6L6 18"/></svg> Quick tactics, a binder of templates, or a programme you can delegate to your calendar</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M6 6l12 12M18 6L6 18"/></svg> Those not yet willing to be the variable</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M6 6l12 12M18 6L6 18"/></svg> Anyone who needs a guarantee. This work offers something better: it offers you back to yourself.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ENGAGEMENTS -->
+<section id="engagements" class="center">
+  <div class="wrap">
+    <div class="sec-head">
+      <span class="eyebrow">Work with me</span>
+      <h2 class="title">Three ways in. One standard:<br>you leave as someone new.</h2>
+    </div>
+    <p class="eng-intro">Every engagement begins with a conversation — not a pitch. A real conversation to find out if this is right for both of us. I work with a small number of clients at any given time.</p>
+    <div class="eng-grid" style="text-align:left">
+      <div class="eng r-up">
+        <span class="num">01</span>
+        <h3>The Reset</h3>
+        <div class="dur">3 months · 6 sessions</div>
+        <p>For a turning point that can't wait. A new role. A hard season. A decision that needs the real you in the room.</p>
+        <a href="#connect" class="ar">Start the conversation <svg viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+      </div>
+      <div class="eng r-up">
+        <span class="num">02</span>
+        <h3>The Becoming</h3>
+        <div class="dur">6 months · core work</div>
+        <p>The core identity work — where your new baseline is built and your leadership changes from the inside out, without effort to hold it.</p>
+        <a href="#connect" class="ar">Start the conversation <svg viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+      </div>
+      <div class="eng r-up">
+        <span class="num">03</span>
+        <h3>The Embodying</h3>
+        <div class="dur">12 months · full embodiment</div>
+        <p>For when you're done with the ceiling for good — ready to lead at the top, for the rest of your career, as who you actually are.</p>
+        <a href="#connect" class="ar">Start the conversation <svg viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CTA BAND -->
+<section class="cta-band">
+  <div class="wrap">
+    <h2 class="r-up">Turn insight into action.</h2>
+    <p class="r-up">Not sure which fits? Neither are most of my clients — until we talk.</p>
+    <a href="#connect" class="btn btn-dark r-up">Let's start the conversation <span class="dot"></span></a>
+  </div>
+</section>
+
+<!-- TESTIMONIALS -->
+<section id="stories" class="center sec-cream">
+  <div class="wrap">
+    <div class="sec-head">
+      <span class="eyebrow">Before &amp; after</span>
+      <h2 class="title">What changes for the<br>leaders I work with.</h2>
+    </div>
+    <div class="tg" style="text-align:left">
+      <div class="tcard r-up">
+        <div class="stars">★★★★★</div>
+        <div class="quote">"There was no asking for permission. I just led."</div>
+        <div class="after-ctx">The asking-for-permission pattern had been there for years. It dissolved in three months.</div>
+        <div class="before">Before: "I'm running meeting to meeting, just hoping my laptop doesn't die."</div>
+        <div class="who"><span class="av"></span><div><div class="nm">Director</div><div class="rl">Big Tech · 3-month engagement</div></div></div>
+      </div>
+      <div class="tcard r-up">
+        <div class="stars">★★★★★</div>
+        <div class="quote">"I use my emotions as a superpower."</div>
+        <div class="after-ctx">What she thought was a liability turned out to be the most precise leadership instrument she had.</div>
+        <div class="before">Before: "I want to let go, but I can't really."</div>
+        <div class="who"><span class="av"></span><div><div class="nm">General Manager</div><div class="rl">B2B SaaS · 6-session engagement</div></div></div>
+      </div>
+      <div class="tcard r-up">
+        <div class="stars">★★★★★</div>
+        <div class="quote">"I just be by myself now. I'm creating space to be calm."</div>
+        <div class="after-ctx">The action didn't stop. The survival-mode behind it did.</div>
+        <div class="before">Before: "I'm always in action. But that's why I'm exhausted."</div>
+        <div class="who"><span class="av"></span><div><div class="nm">Senior Revenue Leader</div><div class="rl">SaaS · ongoing engagement</div></div></div>
+      </div>
+      <div class="tcard r-up">
+        <div class="stars">★★★★★</div>
+        <div class="quote">"There is ROI in these pieces. The next identity level — you can't put a price on it."</div>
+        <div class="after-ctx">The edge came back. Different. No longer brittle.</div>
+        <div class="before">Before: "I lost my edge. I was untouchable."</div>
+        <div class="who"><span class="av"></span><div><div class="nm">Director</div><div class="rl">LinkedIn</div></div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- LANGUAGE SHIFT -->
+<section class="lang-shift center">
+  <div class="wrap">
+    <div class="sec-head">
+      <span class="eyebrow">When something shifts</span>
+      <h2 class="title">The language changes first.</h2>
+      <p style="color:var(--soft);margin-top:14px;font-size:16px">Every client has a moment when the words they use to describe themselves change — not because they learned new vocabulary, but because something underneath shifted.</p>
+    </div>
+    <div class="lang-grid">
+      <div class="lang-head bef">Before</div>
+      <div class="lang-head aft">After</div>
+      <div class="lang-b">"I have to make this work."</div>
+      <div class="lang-a">"I choose this."</div>
+      <div class="lang-b">"I manage how I'm perceived."</div>
+      <div class="lang-a">"I lead as I am."</div>
+      <div class="lang-b">"I need to keep everything running."</div>
+      <div class="lang-a">"I decide what matters."</div>
+      <div class="lang-b">"I wait until I'm ready."</div>
+      <div class="lang-a">"I move when it's alive."</div>
+      <div class="lang-b">"I can't afford to slow down."</div>
+      <div class="lang-a">"Leading from rest is the strategy."</div>
+      <div class="lang-b">"I'm not sure I deserve this role."</div>
+      <div class="lang-a">"I am the person who holds this."</div>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section id="faq">
+  <div class="wrap">
+    <div class="sec-head center">
+      <span class="eyebrow">A few honest questions</span>
+      <h2 class="title">What leaders ask<br>before we begin.</h2>
+    </div>
+    <div class="faq">
+      <div class="qa"><button>What's the difference between executive coaching and consulting?<span class="pm"></span></button><div class="ans"><p>A consultant hands you a strategy — which creates dependency on their expertise. I develop your own capacity to see clearly and decide from your own ground. I blend both: identity-level coaching from someone who has led real P&Ls across three continents, so the work meets the real complexity on your desk while the clarity and authority stay entirely yours.</p></div></div>
+      <div class="qa"><button>Will this actually move my performance, or is it "soft"?<span class="pm"></span></button><div class="ans"><p>It moves your performance precisely because it works on the real bottleneck at your level — the state you lead from. Every framework you've tried, every programme, every book — none of them changed the underlying identity that determines how you actually show up. This work does. The results are not soft. They are the hardest, highest-leverage work available to a leader at your level.</p></div></div>
+      <div class="qa"><button>I understand what I need to do differently. Why can't I just do it?<span class="pm"></span></button><div class="ans"><p>Because understanding and embodying are not the same thing — and at senior levels, almost no one tells you that. You can know exactly what kind of leader you want to be and still, under real pressure, the old version shows up. That gap is not a knowledge problem. Not a discipline problem. It is an identity problem. Most leadership development produces change you have to consciously maintain — which is just a more sophisticated form of performance. This work goes underneath that. When the identity shifts, the behaviour follows without effort.</p></div></div>
+      <div class="qa"><button>I've lost confidence since my promotion. Is that normal?<span class="pm"></span></button><div class="ans"><p>Yes — and it's almost universally misunderstood. It's not weakness. It's a signal that your role has outpaced the identity that earned it. The confidence didn't disappear — it's buried under conditioning built for your previous level. We don't build new confidence. We surface the leader who was already there, underneath everything that got layered on top.</p></div></div>
+      <div class="qa"><button>Can this help with burnout without me dropping the ball?<span class="pm"></span></button><div class="ans"><p>Burnout at senior levels is rarely a time-management problem. It is the cost of an identity that makes rest feel like a threat and delegation feel like losing control. When that shifts, you stop operating from survival. You don't do less — you stop leaking energy into a performance that was never yours.</p></div></div>
+      <div class="qa"><button>I've tried coaching before and didn't get much from it.<span class="pm"></span></button><div class="ans"><p>Most coaching works at the level of behaviour and insight. This works at the level of identity. Insight without a shift in who you're being produces temporary change at best. If you've found yourself understanding exactly what you need to do differently and still not doing it — that gap is precisely what this work addresses.</p></div></div>
+      <div class="qa"><button>How do I know if I'm ready?<span class="pm"></span></button><div class="ans"><p>You're ready if you've earned real success and can feel — not just intellectually, but in your body — that there is another level available. If you're willing to look at yourself as the primary variable. If you want a shift, not more frameworks. The work is personal, direct, and held with genuine care. It is not for everyone. That's exactly why it works for the people it's for.</p></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="connect" class="sec-cream">
+  <div class="wrap">
+    <div class="contact-grid">
+      <div class="ph">
+        <div class="ph-label">
+          <svg viewBox="0 0 24 24" fill="none" stroke-width="1.4"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4 4-6 8-6s8 2 8 6"/></svg>
+          Working photo
+        </div>
+      </div>
+      <div class="cform">
+        <span class="eyebrow">Connect with me</span>
+        <h2>Let's start the<br>conversation.</h2>
+        <p class="sub">No pitch. No agenda. Just a real conversation to find out if I'm the right person to walk with you.</p>
+        <p class="sub-note">If it's a fit, we'll both feel it.</p>
+        <form name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field">
+          <input type="hidden" name="form-name" value="contact">
+          <p style="display:none"><label>Don't fill this out: <input name="bot-field"></label></p>
+          <div class="field"><label>Full name</label><input type="text" name="name" required></div>
+          <div class="field"><label>Email</label><input type="email" name="email" required></div>
+          <div class="field"><label>Mobile (optional)</label><input type="tel" name="mobile"></div>
+          <div class="field"><label>What's going on for you?</label><textarea name="message"></textarea></div>
+          <button type="submit" class="btn btn-dark">Send <span class="dot"></span></button>
+        </form>
+        <p class="form-note">I read every message personally. I respond to every one.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="wrap">
+    <div class="foot-grid">
+      <div>
+        <div class="logo">Julie Landau<span style="color:var(--gold)">.</span></div>
+        <p>Identity-level coaching for senior leaders.<br>The work that returns you to yourself — so everything you do finally feels like yours.</p>
+        <div class="foot-meta"><div class="ml">Email</div><div class="mv">contact@julielandau.com</div></div>
+        <div class="foot-meta"><div class="ml">Reach</div><div class="mv">Coaching globally, online · EN / FR</div></div>
+        <div class="social">
+          <a href="#" aria-label="LinkedIn"><svg viewBox="0 0 24 24"><path d="M4.98 3.5a2.5 2.5 0 11-.02 5 2.5 2.5 0 01.02-5zM3 9h4v12H3zM9 9h3.8v1.7h.1c.5-.9 1.8-1.9 3.7-1.9 4 0 4.7 2.6 4.7 6V21h-4v-5.3c0-1.3 0-2.9-1.8-2.9s-2 1.4-2 2.8V21H9z"/></svg></a>
+          <a href="#" aria-label="Instagram"><svg viewBox="0 0 24 24"><path d="M12 2c2.7 0 3 0 4.1.1 1 0 1.7.2 2.3.5.6.2 1.1.5 1.6 1 .5.5.8 1 1 1.6.3.6.4 1.3.5 2.3.1 1.1.1 1.4.1 4.1s0 3-.1 4.1c0 1-.2 1.7-.5 2.3a4.3 4.3 0 01-1 1.6c-.5.5-1 .8-1.6 1-.6.3-1.3.4-2.3.5-1.1.1-1.4.1-4.1.1s-3 0-4.1-.1c-1 0-1.7-.2-2.3-.5a4.3 4.3 0 01-1.6-1 4.3 4.3 0 01-1-1.6c-.3-.6-.4-1.3-.5-2.3C2 15 2 14.7 2 12s0-3 .1-4.1c0-1 .2-1.7.5-2.3a4.3 4.3 0 011-1.6c.5-.5 1-.8 1.6-1 .6-.3 1.3-.4 2.3-.5C9 2 9.3 2 12 2zm0 5a5 5 0 100 10 5 5 0 000-10zm0 8.2a3.2 3.2 0 110-6.4 3.2 3.2 0 010 6.4zM17.4 6.6a1.2 1.2 0 100 2.4 1.2 1.2 0 000-2.4z"/></svg></a>
+        </div>
+      </div>
+      <div>
+        <h4>Stay close</h4>
+        <p style="margin-bottom:18px">Occasional notes on leading as who you actually are.</p>
+        <form name="newsletter" method="POST" data-netlify="true">
+          <input type="hidden" name="form-name" value="newsletter">
+          <div class="news">
+            <input type="email" name="email" placeholder="Your email address" required>
+            <button type="submit">Subscribe <span style="width:6px;height:6px;background:#fff;border-radius:50%;display:inline-block"></span></button>
+          </div>
+        </form>
+      </div>
+      <div>
+        <h4>Quick links</h4>
+        <ul class="foot-links">
+          <li><a href="#about">About me</a></li>
+          <li><a href="#work">The work</a></li>
+          <li><a href="#engagements">Work with me</a></li>
+          <li><a href="#connect">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="copy">
+      <span>© 2026 julielandau.com — All rights reserved.</span>
+      <span><a href="#">Privacy Policy</a> &nbsp;|&nbsp; <a href="#">Cookies</a></span>
+    </div>
+  </div>
+</footer>
+
+<script>
+  const nav=document.getElementById('nav');
+  addEventListener('scroll',()=>nav.classList.toggle('scrolled',scrollY>10));
+  document.getElementById('burger').onclick=()=>document.getElementById('navlinks').classList.toggle('show');
+  document.querySelectorAll('#navlinks a').forEach(a=>a.onclick=()=>document.getElementById('navlinks').classList.remove('show'));
+  const io=new IntersectionObserver((es)=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}}),{threshold:.12});
+  document.querySelectorAll('.r-up').forEach((el,i)=>{el.style.transitionDelay=(i%3*0.08)+'s';io.observe(el)});
+  addEventListener('load',()=>document.querySelectorAll('.hero .r-up').forEach((el,i)=>{el.style.transitionDelay=(i*0.1)+'s';el.classList.add('in')}));
+  document.querySelectorAll('.hero .r-up').forEach((el,i)=>{el.style.transitionDelay=(i*0.1)+'s';el.classList.add('in')});
+  document.querySelectorAll('.qa button').forEach(b=>b.onclick=()=>{
+    const qa=b.parentElement,ans=qa.querySelector('.ans'),open=qa.classList.contains('open');
+    document.querySelectorAll('.qa').forEach(x=>{x.classList.remove('open');x.querySelector('.ans').style.maxHeight=null});
+    if(!open){qa.classList.add('open');ans.style.maxHeight=ans.scrollHeight+'px'}
+  });
+</script>
+</body>
+</html>
